@@ -195,10 +195,10 @@ category:
 # Search
 search:
   # Display a quick search button in fab
-  # fab: true
+  fab: true
 
   # Render a standalone searh page which can be configured in sidebar menu such as `Search: /search`
-  # page: true
+  page: true
 
   # Local search
   # adapter:
@@ -209,35 +209,35 @@ search:
   #   limit: 10000
 
   # Custom search
-  # adapter:
+  adapter:
   #   # Used for pagination
-  #   per_page: 10
+    per_page: 10
   #   # Optional
-  #   logo: //cdn.worldvectorlogo.com/logos/algolia.svg
-  #   request:
-  #     url: https://{APPLICATION_ID}-dsn.algolia.net/1/indexes/{INDEX}/query
-  #     method: post
-  #     # Available variables: :query, :per_page, :current
-  #     body: '{"query":":query","hitsPerPage":":per_page","page":":current"}'
-  #     headers:
-  #       X-Algolia-API-Key: {API_KEY}
-  #       X-Algolia-Application-Id: {APPLICATION_ID}
-  #       Content-Type: application/json; charset=UTF-8
-  #   keys:
+    logo: //cdn.worldvectorlogo.com/logos/algolia.svg
+    request:
+      url: https://VSJXPNZGRH-dsn.algolia.net/1/indexes/inside/query
+      method: post
+      Available variables: :query, :per_page, :current
+      body: '{"query":":query","hitsPerPage":":per_page","page":":current"}'
+      headers:
+        X-Algolia-API-Key: ec294b5cb83d99462929b583e15def30
+        X-Algolia-Application-Id: VSJXPNZGRH
+        Content-Type: application/json; charset=UTF-8
+    keys:
   #     # Used to retrieve result list
-  #     data: hits
+      data: hits
   #     # Used to retrieve current page number
-  #     current: page
+      current: page
   #     # Used to retrieve total page number
-  #     total: nbPage
+      total: nbPage
   #     # Used to retrieve total hits number
-  #     hits: nbHits
+      hits: nbHits
   #     # Used to retrieve cost time
-  #     time: processingTimeMS
+      time: processingTimeMS
   #     # Used to retrieve title from per hit
-  #     title: _snippetResult.title.value
+      title: _snippetResult.title.value
   #     # Used to retrieve content from per hit
-  #     content: _snippetResult.content.value
+      content: _snippetResult.content.value
 
 
 # ---------------------------------------------------------------
@@ -333,9 +333,9 @@ favicon:
 # SEO
 seo:
   # Render structured-data in <head>, default to `false`
-  structured_data: true
+  # structured_data: true
   # Server-side rendering (SSR), default to `false`
-  ssr: true
+  # ssr: true
 
 # PWA
 pwa:

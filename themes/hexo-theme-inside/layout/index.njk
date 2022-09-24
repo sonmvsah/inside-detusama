@@ -20,40 +20,4 @@
 {{ ga(theme.ga) if theme.ga }}
 </head>
 <body lang="{{ config.language }}"></body>
-
-
-
-{%- url_for('/themes/source/style-mvs.css', {relative: false}) %}
-
-
 </html>
-
-<style>
-.φe h2,
-.φe h3,
-.φe h4,
-.φe h5,
-.φe h6 {
-    margin: 2rem 0 1rem;
-    font-weight: 700;
-    color: #3a4e81;
-    counter-reset: h3;
-    border-bottom: #ffa036 1px solid;
-    font-size: 22px;
-}
-
-.φe h2:before {
-    content: counter(h2, decimal) " ";
-    counter-increment: h2;
-    background-color: #ffa036;
-    padding: 0px 9px 3px 14px;
-    margin-right: 10px;
-    color: #fff;
-    border-bottom: #ffa036 1px solid;
-}
-
-body {
-    counter-reset: h2;
-}
-
-</style>

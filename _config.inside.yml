@@ -211,7 +211,11 @@ search:
   # Custom search
   adapter:
   #   # Used for pagination
-    per_page: 10
+    range:
+      - post
+      - page
+    per_page: 20
+    limit: 10000
   #   # Optional
     logo: //cdn.worldvectorlogo.com/logos/algolia.svg
     request:

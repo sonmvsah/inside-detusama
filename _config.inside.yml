@@ -100,7 +100,7 @@ appearance:
 profile:
   # `email` is used for gravatar(https://en.gravatar.com),
   # fallback to `hexo.config.email` if not specified
-  email: sonmv.ivcu
+  email: sonmv.ivcu@gmail.com
 
   # You can set Avatar URL directly
   avatar: https://detusama.com/wp-content/uploads/2020/03/logo-detusama.png
@@ -109,10 +109,10 @@ profile:
 
 # Sidebar navigation links
 menu:
-  Home: /
-  About: /about
-  Links: /search
-  Github: https://github.com/ikeq
+  Trang chủ: /
+  Về tôi: /about
+  Tìm kiếm: /search
+  Website: https://maivietson.com/
 
 # Social media URL
 sns:
@@ -125,6 +125,9 @@ sns:
   - icon: feed
     title: Feed
     url: # default to `hexo.config.feed.path`
+  - icon: facebook
+    title: Facebook
+    url: https://www.facebook.com/sonmv.ivcu
 
   # custom icon
   # - title: Email me
@@ -138,17 +141,17 @@ sns:
 # Sidebar footer copyright info
 footer:
   # Set to false to hide.
-  copyright: '&copy; 2022 • <a href="">Đệ Tứ Sama</a>'
+  copyright: '&copy; 2022 • <a href="">Mai Việt Sơn</a>'
 
   # Set to false to hide Hexo link.
-  # powered: false
+  powered: false
 
   # Set to false to hide theme link.
-  # theme: false
+  theme: false
 
   # Custom text.
-  # custom: Hosted by <a target="_blank" rel="external nofollow"
-  #   href="https://pages.github.com/"><b>Github Pages</b></a>
+  custom: Hosted by <a target="_blank" rel="external nofollow"
+    href="https://maivietson.com/"><b>mVs</b></a>
 
 
 # ---------------------------------------------------------------
@@ -173,7 +176,7 @@ post:
   # reading_time: false
   reading_time:
     wpm: 150
-    text: ":words words in :minutes min"
+    text: ":words từ trong :minutes phút"
 
   # The following settings are the same as the page
   # toc: false
@@ -266,7 +269,7 @@ toc:
 # Reward
 reward:
   # Text which shows at the top.
-  text: Buy me a cup of coffee ☕.
+  text: Mua cho tôi 1 cốc coffee ☕.
 
   # Payment Methods
   # qrcode, url and text must be set at least one
@@ -277,6 +280,11 @@ reward:
       qrcode: paypal.jpg
       url: https://paypal.me/imelmore
       text: This is a paypal payment link
+      color: '#09bb07'
+    - name: VIB
+      qrcode: paypal.jpg
+      url: https://maivietson.com/vib
+      text: Đây là Link thanh toán VIB
       color: '#09bb07'
 
 # Copyright notice

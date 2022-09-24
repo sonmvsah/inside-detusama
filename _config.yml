@@ -3,22 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Đệ Tứ Sama
-subtitle: ''
-description: ''
-keywords:
-author: Đệ Tứ Sama
+title: Mai Việt Sơn | Dịch vụ thiết kế website uy tín
+subtitle: 'Chia sẻ đam mê và sự tích cực trong cuộc sống'
+description: 'Thiết kế website wordpress, mẹo hay, plugins đáp ứng nhu cầu.'
+keywords: 'Thiết kế website, thiết kế website wordpress, thiết kế website hexo, dịch vụ thiết kế web chuyên nghiệp, dịch vụ thiết kế website cho công ty, dịch vụ thiết kế website cho doanh nghiệp'
+author: Mai Việt Sơn
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://inside-mvs.vercel.app
+url: https://blog.maivietson.com
 permalink: :title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: #true # Set to false to remove trailing '.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -79,7 +79,7 @@ meta_generator: true
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: DD-MM-YYYY
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'mtime'

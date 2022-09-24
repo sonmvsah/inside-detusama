@@ -3,6 +3,8 @@ title: Thay đổi phiên bản Node Js khi dùng Reactjs
 category: java
 thumbnail: https://images.unsplash.com/photo-1512773030458-5b07457c8531?fit=crop&w=1280&h=720&q=80
 color: '#ededed'
+description: Khi chúng ta thiết kế website thường sử dụng các dòng lệnh CSS để thay đổi va tùy biến giao diện.
+
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 

@@ -139,5 +139,5 @@ plugin:
       repo: inside-mvs
       owner: sonmvsah
       admin: 
-        - inside-mvs
+        - sonmvsah
       distractionFreeMode: false

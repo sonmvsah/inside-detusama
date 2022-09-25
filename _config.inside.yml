@@ -28,8 +28,8 @@ appearance:
   font:
     # Url of font css file
     # Below is a font set containing Baloo Bhaijaan, Josefin Sans, Montserrat and Inconsolata from Google Fonts.
-    url: //fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat
-
+    # url: //fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat
+    url: //fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap
     # Base font which applied to body
     base: "'Josefin Sans', 'PingFang SC'"
     # Sidebar author font, fallback to `base`
@@ -431,8 +431,43 @@ plugins:
   # - xxx.jss
 
   # Dynamic inject html snippet
-  # - position: # sidebar | post | page | comments | avatar | head_begin | head_end | body_begin | body_end
+  # - position: head_begin # sidebar | post | page | comments | avatar | head_begin | head_end | body_begin | body_end
     # HTML code
-    # template: <script>...</script>
+    # template: <script>console.log(this);</script>
     # Or a path relative to `hexo.base_dir`
     # template: snippets/snippet-1.html
+    # template: /css/styles.css
+  - position: head_begin
+    template: |
+      <style>
+      .φe h2,
+      .φe h3,
+      .φe h4,
+      .φe h5,
+      .φe h6 {
+          margin: 2rem 0 1rem;
+          font-weight: 700;
+          color: #3a4e81;
+          counter-reset: h3;
+          font-size: 22px;
+      }
+
+      .φe h2:before {
+          content: counter(h2, decimal) " ";
+          counter-increment: h2;
+          background-color: #ffa036;
+          padding: 0px 9px 3px 14px;
+          margin-right: 10px;
+          color: #fff;
+          border-bottom: #ffa036 1px solid;
+      }
+
+      body {
+          counter-reset: h2;
+      }
+
+      article {
+          font-size: 20px;
+          font-weight: 200;
+      }
+      </style>

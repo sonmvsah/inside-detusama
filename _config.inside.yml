@@ -471,3 +471,15 @@ plugins:
           font-weight: 200;
       }
       </style>
+
+  - //cdn.jsdelivr.net/npm/twikoo@1.4.1/dist/twikoo.all.min.js
+  - position: comments
+    template: |
+      <div id="tcomment"></div>
+      <script>
+        window.twikoo && twikoo.init({
+          envId: 'inside-mvs',
+          el: '#tcomment',
+        })
+      </script>
+  

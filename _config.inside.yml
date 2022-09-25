@@ -423,7 +423,14 @@ plugins:
         '#607D8B',
         '#2a2b33'
       ]
-  
+  - gitalk:
+      clientID: 3ad26c0076c912a2be46
+      clientSecret: 3101d3e95aff3582d7b949124397d48a0d870ed5
+      repo: inside-mvs
+      owner: sonmvsah
+      admin: 
+        - sonmvsah
+      distractionFreeMode: false
   # Global Inject script/style
   # By default script will be injected into <body>, and style will be injected into <head>
   # In general, script or style depends on their ext name.

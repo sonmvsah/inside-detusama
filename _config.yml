@@ -117,14 +117,6 @@ algolia:
   indexName: 'inside'
 
 
-plugin:
-  - gitalk:
-      clientID: 3ad26c0076c912a2be46
-      clientSecret: 3101d3e95aff3582d7b949124397d48a0d870ed5
-      repo: inside-mvs
-      owner: sonmvsah
-      admin: 
-        - sonmvsah
-      distractionFreeMode: false
+
 
   

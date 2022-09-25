@@ -486,11 +486,6 @@ plugins:
             client_secret: '3101d3e95aff3582d7b949124397d48a0d870ed5',
           },
         });
-        Object.assign(__gitment, {
-          id: decodeURIComponent(location.pathname),
-          title: document.title,
-          link: location.href,
-        });
-        __gitment.update();
+       
         __gitment.render('gitment');
       </script>

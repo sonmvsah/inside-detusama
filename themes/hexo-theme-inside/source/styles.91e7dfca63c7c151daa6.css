@@ -482,12 +482,14 @@ sub {
 .φe h6 {
     margin: 2rem 0 1rem;
     font-weight: 700;
-    color: #3a4e81;
+    /* color: #3a4e81;
     counter-reset: h3;
     border-bottom: #ffa036 1px solid;
-    font-size: 22px;
+    font-size: 22px; */
 }
 
+
+/* 
 .φe h2:before {
     content: counter(h2, decimal) " ";
     counter-increment: h2;
@@ -504,7 +506,7 @@ body {
 
 article {
     font-size: 16px;
-}
+} */
 
 .φe h2 a:last-child,
 .φe h3 a:last-child,

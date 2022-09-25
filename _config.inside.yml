@@ -51,7 +51,9 @@ appearance:
     code: Inconsolata, monospace
     # Base font for printing which applied to body
     print:
+   
 
+   
   # Code Syntax Highlighting
   # Uses an architecture called "base16" (https://github.com/chriskempson/base16),
   # the default theme is a customized Atelier Dune Light theme,

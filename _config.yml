@@ -117,21 +117,6 @@ algolia:
   indexName: 'inside'
 
 
-# plugin:
-#   - //code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js
-#   - //unpkg.com/valine/dist/Valine.min.js
-#   - position: comments
-#     template: |
-#       <div id="vcomment"></div>
-#       <script>
-#         new Valine({
-#           el: '#vcomment',
-#           appId: 'V6PEqSac28ePmfrcsS0Appa3-MdYXbMMI',
-#           appKey: '5xKxBaK5iDokeQg0vAEpvoWh',
-#           path: window.location.pathname
-#         })
-#       </script>
-  
 plugin:
   - gitalk:
       clientID: 3ad26c0076c912a2be46
@@ -141,3 +126,5 @@ plugin:
       admin: 
         - sonmvsah
       distractionFreeMode: false
+
+  

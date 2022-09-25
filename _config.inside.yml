@@ -472,24 +472,3 @@ plugins:
       }
       </style>
 
-
-  
-
-  # - //imsun.github.io/gitment/style/default.css
-  # - //imsun.github.io/gitment/dist/gitment.browser.js
-  # - position: comments
-  #   template: |
-  #     <div id="gitment"></div>
-  #     <script>
-  #       if (!window.__gitment) window.__gitment = new Gitment({
-  #         owner: 'sonmvsah',
-  #         repo: 'inside-mvs',
-  #         oauth: {
-  #           client_id: '3ad26c0076c912a2be46',
-  #           client_secret: '3101d3e95aff3582d7b949124397d48a0d870ed5',
-  #         },
-  #       });
-       
-  #       __gitment.render('gitment');
-  #     </script>
-  

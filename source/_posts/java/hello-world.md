@@ -25,7 +25,7 @@ $ hexo server
 
 ![space](https://images.unsplash.com/photo-1470211702316-05678b58d67a?fit=crop&w=1280&h=720&q=80)
 
-More info: [Server](https://hexo.io/docs/server.html)
+**More** info: [Server](https://hexo.io/docs/server.html)
 
 ### Generate static files
 

@@ -12,7 +12,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 <!-- ## Quick Start -->
 Khi chúng ta thiết kế website thường sử dụng các dòng lệnh CSS để thay đổi va tùy biến giao diện.
 
-Nhưng khi thay đổi xong Css trong file style.css rồi ra ngoài tải lại trang web lại không thấy có thay đổi gì? Tại sao? chúng ta hãy xem nguyên nhân và giải pháp
+Nhưng khi thay đổi xong Css trong file style.css rồi ra ngoài **tải lại trang web** lại không thấy có thay đổi gì? Tại sao? chúng ta hãy xem nguyên nhân và giải pháp
 
 ## 1. Cache ( Bộ nhớ đệm) của trình duyệt là nguyên nhân?
 Kì thực các bạn có biết tại sao website bạn đã truy cập 1 lần rồi, lần sau truy cập vào cảm thấy nhanh hơn rất nhiều?
@@ -26,7 +26,7 @@ Như vậy CSS là 1 tài nguyên được tải trước trong bộ nhớ đệ
 ## 2. Vậy muốn thay đổi CSS website thì làm cách nào?
 Chúng ta vừa đặt ra vấn đề nếu thay đổi CSS website thì chẳng phải sẽ bất tiện lắm sao? tại sao. Vì Css sẽ không được load lại.
 
-Chúng ta yên tâm, Cache của trình duyệt sẽ được làm mới lại sau một thời gian nhất định.
+Chúng ta yên tâm, ***Cache của trình duyệt*** sẽ được làm mới lại sau một thời gian nhất định.
 
 Tuy nhiên Nếu bạn là 1 người Thiết kế website , liên tục thay đổi CSS thì sao nhỉ ? Thực ra chúng ta cũng các cách chủ động thông báo cho trình duyệt rằng có sự thay đổi, cần cập nhật lại CSS của một website nào đó.
 

@@ -472,14 +472,25 @@ plugins:
       }
       </style>
 
-  - //cdn.jsdelivr.net/npm/twikoo@1.4.1/dist/twikoo.all.min.js
+  - //imsun.github.io/gitment/style/default.css
+  - //imsun.github.io/gitment/dist/gitment.browser.js
   - position: comments
     template: |
-      <div id="tcomment"></div>
+      <div id="gitment"></div>
       <script>
-        window.twikoo && twikoo.init({
-          envId: 'inside-mvs',
-          el: '#tcomment',
-        })
+        if (!window.__gitment) window.__gitment = new Gitment({
+          owner: 'sonmvsah',
+          repo: 'inside-mvs',
+          oauth: {
+            client_id: '3ad26c0076c912a2be46',
+            client_secret: '3101d3e95aff3582d7b949124397d48a0d870ed5',
+          },
+        });
+        Object.assign(__gitment, {
+          id: decodeURIComponent(location.pathname),
+          title: document.title,
+          link: location.href,
+        });
+        __gitment.update();
+        __gitment.render('gitment');
       </script>
-  

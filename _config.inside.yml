@@ -296,11 +296,11 @@ copyright:
   author: true
 
   # Display link, default to `true`
-  # link: false
+  link: true
 
-  # license: Attribution-NonCommercial-NoDerivatives 4.0 International
-  #   (<a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\"
-  #   rel=\"external nofollow\" target=\"_blank\">CC BY-NC-ND 4.0</a>)
+  license: mVs 
+    (<a href=\"https://maivietson.com"
+    rel=\"external nofollow\" target=\"_blank\">Mai Việt Sơn</a>)
 
   # Display published date, default to `false`
   # published: false
@@ -309,7 +309,9 @@ copyright:
   # updated: false
 
   # Custom text, override above settings
-  # custom: my copyright
+  # custom: mVs 
+    # (<a href=\"https://maivietson.com"
+    # rel=\"external nofollow\" target=\"_blank\">Mai Việt Sơn</a>)
 
 # Comments
 # Built-in support Disqus (https://disqus.com) and LiveRe (https://livere.com),

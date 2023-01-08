@@ -224,13 +224,13 @@ search:
   #   # Optional
     logo: //cdn.worldvectorlogo.com/logos/algolia.svg
     request:
-      url: https://VSJXPNZGRH-dsn.algolia.net/1/indexes/inside/query
+      url: https://W55CJQZDRY-dsn.algolia.net/1/indexes/inside-detusama/query
       method: post
       Available variables: :query, :per_page, :current
       body: '{"query":":query","hitsPerPage":":per_page","page":":current"}'
       headers:
-        X-Algolia-API-Key: ec294b5cb83d99462929b583e15def30
-        X-Algolia-Application-Id: VSJXPNZGRH
+        X-Algolia-API-Key: 629059ffe23b8c5291321b00498c6e0a
+        X-Algolia-Application-Id: W55CJQZDRY
         Content-Type: application/json; charset=UTF-8
     keys:
   #     # Used to retrieve result list

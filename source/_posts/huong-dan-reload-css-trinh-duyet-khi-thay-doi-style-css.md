@@ -1,6 +1,5 @@
 ---
 title: Hướng dẫn Reload css trình duyệt khi thay đổi Style.css
-color: '#4caf50'
 categories: tips
 description: KKhi thay đổi Style.css mà ta không reload css (tải lại css) có thể không thấy sự thay đổi làm ta nhầm là bị lỗi, lý do và khắc phục như sau
 thumbnail: /images/posts/huong-dan-reload-css-trinh-duyet-khi-thay-doi-file-style-css.jpeg

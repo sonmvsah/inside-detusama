@@ -517,9 +517,7 @@ plugins:
             margin: 4px 5px 0 -15px;
         }
         @media(max-width:48em) {
-            .φe blockquote footer {
-              margin-top: -199px;
-          }
+
           header {
             background-size: contain;
             background-repeat: no-repeat;

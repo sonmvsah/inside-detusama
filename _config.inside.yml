@@ -5,7 +5,7 @@
 # Appearance
 appearance:
   # Accent color, default '#2a2b33'
-  accent_color:
+  accent_color: '#ff9800'
   # Font color, default '#363636'
   foreground_color:
   # Border color, default '#e0e0e0'
@@ -284,7 +284,7 @@ reward:
       qrcode: paypal.jpg
       url: https://paypal.me/imelmore
       text: This is a paypal payment link
-      color: '#09bb07'
+      color: '#ff9800'
     - name: VIB
       qrcode: paypal.jpg
       url: https://maivietson.com/vib
@@ -395,8 +395,8 @@ pwa:
     short_name:
     name:
     start_url: /
-    theme_color: '#2a2b33'
-    background_color: '#2a2b33'
+    theme_color: '#ff9800'
+    background_color: '#ff9800'
     icons:
       - src: /images/favicon-32x32.png
         sizes: 32x32 512x512
@@ -491,14 +491,15 @@ plugins:
             margin: 0 auto;
             font-weight: 700;
             line-height: 1.8;
+            position: relative;
         }
         .φe blockquote footer {
             color: rgb(255, 255, 255);
             font-size: 14px;
             font-weight: normal;
             position: absolute;
-            margin-top: -166px;
-            left: 56px;
+            top: -14px;
+            left: 27px;
             vertical-align: middle;
             line-height: 26px;
             clear: both;
@@ -508,7 +509,7 @@ plugins:
         }
         .φe blockquote footer:before {
             content: '';
-            background: url(https://www.thegioididong.com/Content/desktop/images/V4/game/icon-qua-tang@2x.png);
+            background: url(/images/icon-qua-tang@2x.png);
             width: 16px;
             height: 15px;
             background-size: 16px 15px;
@@ -522,33 +523,20 @@ plugins:
         }
       </style>
     
+  - position: body_end
+    template: |
+    
+      <style>
+    
+        .φe h2 {
+          font-size: 22px;
+        }
+        .φe h3 {
+          font-size: 18px;
+        }
+        .φe h4 {
+          font-size: 16px;
+        }
 
-  # - position: head_begin
-  #     template: |
-  #       <style>
-  #       .φe blockquote {
-  #           color: #405fac;
-  #           background: #f2f6ff;
-  #           border: 1px solid #5d86c4;
-  #           padding: 10px 15px;
-  #           border-radius: 3px;
-  #           font-size: 18px;
-  #           padding: 20px;
-  #           margin: 0 auto;
-  #           font-weight: 700;
-  #       }
-  #       .φe blockquote footer {
-  #           color: rgb(255, 255, 255);
-  #           font-size: 14px;
-  #           font-weight: normal;
-  #           position: absolute;
-  #           margin-top: -166px;
-  #           left: 56px;
-  #           vertical-align: middle;
-  #           line-height: 26px;
-  #           clear: both;
-  #           background: rgb(76, 121, 172);
-  #           border-radius: 13px;
-  #           padding: 0px 15px 0px 30px;
-  #       }
-  #       </style>
+    
+      </style>

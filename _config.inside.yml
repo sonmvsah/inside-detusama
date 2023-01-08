@@ -472,5 +472,10 @@ plugins:
           font-size: 20px;
           font-weight: 200;
       }
+       .highlight {
+        font-size:75% !important;
+        line-height: 1.0;
+        word-wrap: break-word;
+      }
       </style>
     

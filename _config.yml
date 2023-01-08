@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Mai Việt Sơn | Dịch vụ thiết kế website uy tín
+title: Đệ Tứ Sama | Nếu chỉ biết \#1, Tôi sẽ dùng nó thật hiệu quả
 subtitle: 'Chia sẻ đam mê và sự tích cực trong cuộc sống'
 description: 'Thiết kế website wordpress, mẹo hay, plugins đáp ứng nhu cầu.'
 keywords: 'Thiết kế website, thiết kế website wordpress, thiết kế website hexo, dịch vụ thiết kế web chuyên nghiệp, dịch vụ thiết kế website cho công ty, dịch vụ thiết kế website cho doanh nghiệp'
-author: Mai Việt Sơn
+author: Đệ Tứ Sama
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.maivietson.com
+url: https://detusama.com
 permalink: :title.html
 permalink_defaults:
 pretty_urls:
@@ -41,12 +41,15 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: false

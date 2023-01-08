@@ -105,16 +105,16 @@ profile:
   email: sonmv.ivcu@gmail.com
 
   # You can set Avatar URL directly
-  avatar: https://maivietson.com/wp-content/uploads/2020/09/FB_IMG_1576476741416.jpg
+  avatar: /images/logo-detusama.png
 
   bio: Thiết kế website wordpress, mẹo hay, plugins đáp ứng nhu cầu.
 
 # Sidebar navigation links
 menu:
   Trang chủ: /
-  Về tôi: /about
+  Về tôi: /gioi-thieu
   Tìm kiếm: /search
-  Website: https://maivietson.com/
+  Website: https://detusama.com/
 
 # Social media URL
 sns:
@@ -123,13 +123,13 @@ sns:
   # `youtube`, `hangouts`, `linkedin`, `pinterest`, `soundcloud`, `myspace`, `weibo`, `qq
   - icon: email
     title: Email
-    url: # default to `profile.email`
+    url: sonmv.ivcu@gmail.com # default to `profile.email`
   - icon: feed
     title: Feed
     url: # default to `hexo.config.feed.path`
   - icon: facebook
     title: Facebook
-    url: https://www.facebook.com/sonmv.ivcu
+    url: https://www.facebook.com/detusama
 
   # custom icon
   # - title: Email me
@@ -143,7 +143,7 @@ sns:
 # Sidebar footer copyright info
 footer:
   # Set to false to hide.
-  copyright: '&copy; 2022 • <a href="">Mai Việt Sơn</a>'
+  copyright: '&copy; 2022 • <a href="">Đệ Tứ Sama</a>'
 
   # Set to false to hide Hexo link.
   powered: false
@@ -258,6 +258,8 @@ search:
 # <img src="https://cdn.example.com/images/cat.gif?m=webp&q=80" alt="cat">
 assets:
   # prefix: 'https://cdn.example.com'
+  prefix: 'images'
+
   # suffix: '?m=webp&q=80'
 
 # Table of content, enabled by default, set to `false` to disable.
@@ -299,14 +301,14 @@ copyright:
   link: true
 
   license: mVs 
-    (<a href=\"https://maivietson.com"
-    rel=\"external nofollow\" target=\"_blank\">Mai Việt Sơn</a>)
+    (<a href=\"https://detusama.com"
+    rel=\"external nofollow\" target=\"_blank\">Đệ Tứ Sama</a>)
 
   # Display published date, default to `false`
-  # published: false
+  # published: true
 
   # Display updated date, default to `false`
-  # updated: false
+  # updated: true
 
   # Custom text, override above settings
   # custom: mVs 
@@ -335,13 +337,13 @@ static_prefix:
 # URL prefix for json data
 # If your json file is put in a cdn server,
 # set data_prefix as '//cdn.com/path/to/path/your_json_dir' and data_dir as 'your_json_dir'
-data_prefix:
+data_prefix: 
 
 # Folder where json file will be generated to, default to 'api'
 data_dir:
 
 # Favicon, default to `favicon.ico`
-favicon:
+favicon: /images/favicon-16x16.png
 
 # Google analytics
 # ga: UA-00000000-0
@@ -349,7 +351,7 @@ favicon:
 # SEO
 seo:
   # Render structured-data in <head>, default to `false`
-  # structured_data: true
+  structured_data: true
   # Server-side rendering (SSR), default to `false`
   ssr: true
 
@@ -396,12 +398,12 @@ pwa:
     theme_color: '#2a2b33'
     background_color: '#2a2b33'
     icons:
-      - src: icon-194x194.png
-        sizes: 194x194 512x512
+      - src: /images/favicon-32x32.png
+        sizes: 32x32 512x512
         type: image/png
         purpose: any
-      - src: icon-144x144.png
-        sizes: 144x144
+      - src: /images/favicon-16x16.png
+        sizes: 16x16
         type: image/png
         purpose: any
 
@@ -439,7 +441,7 @@ plugins:
     # Or a path relative to `hexo.base_dir`
     # template: snippets/snippet-1.html
     # template: /css/styles.css
-  - position: head_begin
+  - position: body_end
     template: |
       <style>
       .φe h2,
@@ -477,5 +479,76 @@ plugins:
         line-height: 1.0;
         word-wrap: break-word;
       }
+
+      .φe blockquote {
+            color: #405fac;
+            background: #f2f6ff;
+            border: 1px solid #5d86c4;
+            padding: 10px 15px;
+            border-radius: 3px;
+            font-size: 18px;
+            padding: 20px;
+            margin: 0 auto;
+            font-weight: 700;
+            line-height: 1.8;
+        }
+        .φe blockquote footer {
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+            font-weight: normal;
+            position: absolute;
+            margin-top: -166px;
+            left: 56px;
+            vertical-align: middle;
+            line-height: 26px;
+            clear: both;
+            background: rgb(76, 121, 172);
+            border-radius: 13px;
+            padding: 0px 15px 0px 30px;
+        }
+        .φe blockquote footer:before {
+            content: '';
+            background: url(https://www.thegioididong.com/Content/desktop/images/V4/game/icon-qua-tang@2x.png);
+            width: 16px;
+            height: 15px;
+            background-size: 16px 15px;
+            float: left;
+            margin: 4px 5px 0 -15px;
+        }
+        @media(max-width:48em) {
+            .φe blockquote footer {
+              margin-top: -199px;
+          }
+        }
       </style>
     
+
+  # - position: head_begin
+  #     template: |
+  #       <style>
+  #       .φe blockquote {
+  #           color: #405fac;
+  #           background: #f2f6ff;
+  #           border: 1px solid #5d86c4;
+  #           padding: 10px 15px;
+  #           border-radius: 3px;
+  #           font-size: 18px;
+  #           padding: 20px;
+  #           margin: 0 auto;
+  #           font-weight: 700;
+  #       }
+  #       .φe blockquote footer {
+  #           color: rgb(255, 255, 255);
+  #           font-size: 14px;
+  #           font-weight: normal;
+  #           position: absolute;
+  #           margin-top: -166px;
+  #           left: 56px;
+  #           vertical-align: middle;
+  #           line-height: 26px;
+  #           clear: both;
+  #           background: rgb(76, 121, 172);
+  #           border-radius: 13px;
+  #           padding: 0px 15px 0px 30px;
+  #       }
+  #       </style>

@@ -520,6 +520,11 @@ plugins:
             .φe blockquote footer {
               margin-top: -199px;
           }
+          header {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: top;
+          }
         }
       </style>
     
@@ -537,6 +542,17 @@ plugins:
         .φe h4 {
           font-size: 16px;
         }
+
+        @media(max-width:48em) {
+           
+          header {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: top;
+          }
+        }
+
+
 
     
       </style>

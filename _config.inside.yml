@@ -546,9 +546,9 @@ plugins:
         @media(max-width:48em) {
            
           header {
-            background-size: contain;
+            background-size: contain !important;
             background-repeat: no-repeat;
-            background-position: top;
+            background-position: top !important;
           }
         }
 

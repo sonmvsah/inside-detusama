@@ -107,7 +107,7 @@ profile:
   # You can set Avatar URL directly
   avatar: /images/logo-detusama.png
 
-  bio: Thiết kế website wordpress, mẹo hay, plugins đáp ứng nhu cầu.
+  bio: Thiết kế website wordpress, mẹo hay, plugins đáp ứng nhu cầu. <p> Một sản phẩm của Mai Việt Sơn </p>
 
 # Sidebar navigation links
 menu:
@@ -143,7 +143,7 @@ sns:
 # Sidebar footer copyright info
 footer:
   # Set to false to hide.
-  copyright: '&copy; 2022 • <a href="">Đệ Tứ Sama</a>'
+  copyright: '&copy; 2017 • <a href="https://maivietson.com">Mai Việt Sơn</a>'
 
   # Set to false to hide Hexo link.
   powered: false

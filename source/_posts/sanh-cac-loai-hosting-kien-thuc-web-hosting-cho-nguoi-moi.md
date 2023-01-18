@@ -1,7 +1,7 @@
 ---
 title: So sánh các loại Hosting? Kiến thức chọn web hosting cho người mới
 categories: server
-description: Khi chúng ta thiết kế website thường sử dụng các dòng lệnh CSS để thay đổi va tùy biến giao diện.
+description: So sánh các loại Hosting? Shared Hosting, VPS Hosting Cloud Hosting, WordPress Hosting , Dedicated Server Hosting
 thumbnail: /images/posts/so-sanh-cac-loai-hosting-danh-cho-nguoi-moi.jpeg
 ---
 

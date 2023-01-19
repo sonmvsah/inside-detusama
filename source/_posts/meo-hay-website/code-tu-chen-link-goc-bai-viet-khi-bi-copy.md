@@ -1,5 +1,7 @@
 ---
 title: Code JavaScript tự chèn link gốc bài viết khi copy
+date: Jan 19, 2023
+updated: Jan 19, 2023
 categories: 
     - tips
     - code

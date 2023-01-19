@@ -1,5 +1,7 @@
 ---
 title: Hướng dẫn Reload css trình duyệt khi thay đổi Style.css
+date: Jan 8, 2023
+updated: Jan 19, 2023
 categories: tips
 description: Khi thay đổi Style.css mà ta không reload css (tải lại css) có thể không thấy sự thay đổi làm ta nhầm là bị lỗi, lý do và khắc phục như sau
 thumbnail: /images/posts/huong-dan-reload-css-trinh-duyet-khi-thay-doi-file-style-css.jpeg

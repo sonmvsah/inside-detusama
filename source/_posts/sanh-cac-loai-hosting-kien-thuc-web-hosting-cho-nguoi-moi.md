@@ -4,6 +4,8 @@ categories: server
 description: So sánh các loại Hosting? Shared Hosting, VPS Hosting Cloud Hosting, WordPress Hosting , Dedicated Server Hosting
 thumbnail: /images/posts/so-sanh-cac-loai-hosting-danh-cho-nguoi-moi.jpeg
 excerpt: So sánh các loại Hosting? Shared Hosting, VPS Hosting Cloud Hosting, WordPress Hosting , Dedicated Server Hosting
+date: Jan 18, 2023
+updated: Jan 18, 2023
 ---
 
 

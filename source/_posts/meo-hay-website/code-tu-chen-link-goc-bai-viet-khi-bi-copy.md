@@ -1,6 +1,8 @@
 ---
 title: Code JavaScript tự chèn link gốc bài viết khi copy
-categories: tips , plugins
+categories: 
+    - tips
+    - code
 tags: [Mẹo hay website, Chống copy nội dung website]
 thumbnail: /images/posts/tu-dong-chen-link-bai-viet-goc-khi-bi-copy.jpg
 sticky: 1

@@ -3,6 +3,7 @@ title: So sánh các loại Hosting? Kiến thức chọn web hosting cho ngư�
 categories: server
 description: So sánh các loại Hosting? Shared Hosting, VPS Hosting Cloud Hosting, WordPress Hosting , Dedicated Server Hosting
 thumbnail: /images/posts/so-sanh-cac-loai-hosting-danh-cho-nguoi-moi.jpeg
+excerpt: So sánh các loại Hosting? Shared Hosting, VPS Hosting Cloud Hosting, WordPress Hosting , Dedicated Server Hosting
 ---
 
 

@@ -1,8 +1,10 @@
 ---
 title: Hướng dẫn Reload css trình duyệt khi thay đổi Style.css
 categories: tips
-description: KKhi thay đổi Style.css mà ta không reload css (tải lại css) có thể không thấy sự thay đổi làm ta nhầm là bị lỗi, lý do và khắc phục như sau
+description: Khi thay đổi Style.css mà ta không reload css (tải lại css) có thể không thấy sự thay đổi làm ta nhầm là bị lỗi, lý do và khắc phục như sau
 thumbnail: /images/posts/huong-dan-reload-css-trinh-duyet-khi-thay-doi-file-style-css.jpeg
+sticky: 1
+excerpt: Khi chúng ta thiết kế website thường sử dụng các dòng lệnh CSS để thay đổi va tùy biến giao diện. Nhưng khi thay đổi xong Css trong file style.css rồi ra ngoài tải lại trang web lại không thấy có thay đổi gì? Tại sao? chúng ta hãy xem nguyên nhân và giải pháp
 ---
 
 Khi chúng ta thiết kế website thường sử dụng các dòng lệnh CSS để thay đổi va tùy biến giao diện.

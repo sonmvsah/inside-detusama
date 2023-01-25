@@ -552,8 +552,8 @@ plugins:
 
            
       </style>
-
-      <%- is_home() %>
+      <script> 
+      <% is_home() %>
 
       <style>
     
@@ -565,3 +565,5 @@ plugins:
         margin-bottom: 1rem;
       }
       </style>
+
+      </script>

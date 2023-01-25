@@ -553,7 +553,7 @@ plugins:
            
       </style>
       <script> 
-      <% is_home() %>
+      <%- is_home() %>
 
       <style>
     

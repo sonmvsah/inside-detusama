@@ -554,6 +554,8 @@ plugins:
       </style>
       <script> 
       <%- is_home() %>
+
+      console.log(',maivse');
       echo '<style>
     
       .φcl {

@@ -554,8 +554,7 @@ plugins:
       </style>
       <script> 
       <%- is_home() %>
-
-      <style>
+      echo '<style>
     
       .φcl {
         margin: 0;
@@ -564,6 +563,7 @@ plugins:
         font-size: 1.5rem;
         margin-bottom: 1rem;
       }
-      </style>
+      </style>';
+      
 
       </script>

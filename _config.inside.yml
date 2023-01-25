@@ -549,23 +549,14 @@ plugins:
             background-position: top !important;
           }
         }
-
-           
-      </style>
-      <script> 
-      <%- is_home() %>
-
-      console.log(',maivse');
-      echo '<style>
-    
-      .φcl {
+        .φcl {
         margin: 0;
         font-weight: 700;
         -webkit-tap-highlight-color: transparent;
         font-size: 1.5rem;
         margin-bottom: 1rem;
-      }
-      </style>';
-      
+        }
 
-      </script>
+           
+      </style>
+    
